@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Fraunces, Manrope } from "next/font/google";
+import Script from "next/script";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SITE } from "@/lib/constants";
@@ -65,6 +66,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${display.variable} ${body.variable} h-full antialiased`}
     >
       <body className="surface-noise flex min-h-full flex-col font-sans">
+        <Script
+          src="https://analytics.ahrefs.com/analytics.js"
+          strategy="beforeInteractive"
+          data-key="V/fO7ZEa0pkl728x7fsaZQ"
+        />
         <SiteHeader />
         <div className="flex flex-1 flex-col">{children}</div>
         <SiteFooter />

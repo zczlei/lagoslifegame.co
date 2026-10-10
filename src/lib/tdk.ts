@@ -31,9 +31,9 @@ export const TDK = {
       "All Lagos Life homes with weekly rent, the 3-week move-in rule, and what a real first-week wage can afford.",
   },
   signIn: {
-    title: "Lagos Life Sign In: Fix Loops, Guest Loss & Email Codes",
+    title: "Lagos Life Sign In Not Working: Fixes and Account Facts",
     description:
-      "Sign-in loops, missing codes and lost guest accounts in Lagos Life — what actually fixes each one.",
+      "Sign-in loops, lockouts and lost access in Lagos Life: what you can fix yourself, what needs developer support.",
   },
   creator: {
     title: "Who Made Lagos Life? Creator, Launch Date and Sources",

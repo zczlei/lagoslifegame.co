@@ -14,13 +14,13 @@ export function SiteHeader() {
 
         <nav
           aria-label="Primary"
-          className="hidden items-center gap-6 text-sm text-ink-muted lg:flex"
+          className="hidden items-center gap-6 text-sm font-medium text-sand [text-shadow:0_1px_2px_rgba(12,18,16,0.75),0_0_18px_rgba(12,18,16,0.45)] lg:flex"
         >
           {NAV.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className="transition-colors hover:text-sand"
+              className="transition-colors hover:text-amber-hot"
             >
               {item.label}
             </Link>

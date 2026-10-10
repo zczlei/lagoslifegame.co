@@ -43,8 +43,8 @@ export const GUIDES = [
   },
   {
     href: "/sign-in/",
-    title: "Sign in & account fixes",
-    blurb: "Loops, guest loss, email codes",
+    title: "Sign in not working",
+    blurb: "Loops, lockouts, cookies, fingerprinting",
   },
   {
     href: "/how-to-play/",
