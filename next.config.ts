@@ -2,8 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   trailingSlash: true,
-  cacheComponents: true,
-  partialPrefetching: true,
+  // Cache Components hang on Cloudflare Workers (setTimeout runtime gap → 1101).
+  // Re-enable when OpenNext/Next support CF Cache Components fully.
+  cacheComponents: false,
   turbopack: {
     rules: {
       "*.css": {
@@ -15,3 +16,7 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+// Bindings available during `next dev` via OpenNext.
+import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
+initOpenNextCloudflareForDev();
