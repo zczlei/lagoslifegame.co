@@ -62,6 +62,11 @@ export const GUIDES = [
     blurb: "Move-in maths and first-week picks",
   },
   {
+    href: "/sea-plots/",
+    title: "Sea Plots explained",
+    blurb: "₦50k / 7 days, slots, and when to rent",
+  },
+  {
     href: "/is-lagos-life-safe/",
     title: "Safety & scams",
     blurb: "Accounts, strangers, fake downloads",

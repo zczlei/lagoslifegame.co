@@ -15,7 +15,7 @@ const routes: {
   { path: "/homes/", changeFrequency: "monthly", priority: 0.8 },
   { path: "/is-lagos-life-safe/", changeFrequency: "monthly", priority: 0.8 },
   { path: "/who-created-lagos-life/", changeFrequency: "monthly", priority: 0.75 },
-  { path: "/sea-plots/", changeFrequency: "monthly", priority: 0.6 },
+  { path: "/sea-plots/", changeFrequency: "monthly", priority: 0.8 },
   { path: "/updates/", changeFrequency: "weekly", priority: 0.7 },
 ];
 

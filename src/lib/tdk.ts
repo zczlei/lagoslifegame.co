@@ -40,4 +40,9 @@ export const TDK = {
     description:
       "Shalom Rayhamen built Lagos Life, launched 1 October 2026. Every claim here carries its source, date and disagreement.",
   },
+  seaPlots: {
+    title: "Lagos Life Sea Plots: Cost, Slots and When to Buy",
+    description:
+      "Sea Plots cost ₦50,000 for seven in-game days. What they are, how many slots exist, and why they are not a first-hour buy.",
+  },
 } as const;
