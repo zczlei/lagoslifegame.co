@@ -71,6 +71,16 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           strategy="beforeInteractive"
           data-key="V/fO7ZEa0pkl728x7fsaZQ"
         />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-1401CYYZMQ"
+          strategy="afterInteractive"
+        />
+        <Script id="google-gtag" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-1401CYYZMQ');`}
+        </Script>
         <SiteHeader />
         <div className="flex flex-1 flex-col">{children}</div>
         <SiteFooter />
