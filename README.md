@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# lagoslifegame.co
 
-## Getting Started
+Unofficial fan guide for **Lagos Life** — a free browser life sim set in Lagos.
 
-First, run the development server:
+## Stack
+
+- Next.js (App Router) + TypeScript + Tailwind CSS v4
+- Domain: https://lagoslifegame.co
+- Official game: https://lagoslife.app (mirror: https://lagoslife.eliysites.com)
+
+## Develop
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Page map (from `2.md`)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Priority | Route | Intent |
+| --- | --- | --- |
+| P0 | `/` | Hub / EMD |
+| P0 | `/lagos-life-game-link/` | Working link + fixes |
+| P0 | `/how-to-play/` | First-hour walkthrough |
+| P0 | `/is-lagos-life-safe/` | Safety / scam |
+| P1 | `/login/` | Login & sign-up |
+| P1 | `/virtual-naira/` | Earn money |
+| P1 | `/sea-plots/` `/homes/` | Mechanics |
+| P1 | `/updates/` | Weekly gov / wage log |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Homepage content follows `3.md`. Subpages are scaffolded and ready to fill.

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Lagos Life Guide">
+  <rect width="32" height="32" rx="8" fill="#0a2f2c"/>
+  <!-- crown tips -->
+  <rect x="11" y="6.5" width="2.2" height="2.2" rx="0.4" fill="#f0b429"/>
+  <rect x="14.9" y="5.2" width="2.4" height="3.5" rx="0.4" fill="#f0b429"/>
+  <rect x="18.8" y="6.5" width="2.2" height="2.2" rx="0.4" fill="#f0b429"/>
+  <rect x="10.5" y="8.5" width="11" height="1.6" rx="0.4" fill="#f0b429"/>
+  <!-- L -->
+  <path fill="#f0b429" d="M12.2 12h3.4v10.6H21V25H12.2V12z"/>
+</svg>
