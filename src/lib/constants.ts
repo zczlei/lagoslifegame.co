@@ -78,7 +78,7 @@ export const GUIDES = [
   },
   {
     href: "/updates/",
-    title: "In-game updates log",
-    blurb: "Gov rulings, new homes, weekly wage changes",
+    title: "Dated updates log",
+    blurb: "Build stamps, cities, player counts — sourced",
   },
 ] as const;

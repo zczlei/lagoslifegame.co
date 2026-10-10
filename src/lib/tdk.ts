@@ -45,4 +45,9 @@ export const TDK = {
     description:
       "Sea Plots cost ₦50,000 for seven in-game days. What they are, how many slots exist, and why they are not a first-hour buy.",
   },
+  updates: {
+    title: "Lagos Life Updates: Dated Change Log Since Launch",
+    description:
+      "Every dated Lagos Life change with its source: new cities, live player counts, build stamps and silent economy tweaks.",
+  },
 } as const;
